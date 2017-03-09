@@ -5,7 +5,7 @@ A collection of tools for operating on ICECP using the command line
 ### Install
 
 Run `mvn install`; the `target` directory will have a zip file with easy-to-use
-scripts to run the available commands. Alternately, download and install the RPM from [Artifactory](https://ubit-artifactory-or.intel.com/artifactory/simple/ARP-EAP-rpm-local/gateway-repo/icecp-tools/).
+scripts to run the available commands. Alternately, build and install the RPM using the `as-rpm` profile.
 
 ### Usage
 
@@ -15,8 +15,8 @@ Run the `icecp-cli` script with the following commands:
  - _publish_: takes stdin lines and publishes them as bytes messages
  - _subscribe_: listens for messages on the given URI and prints them, undecoded, to stdout
  - _latest_: retrieves the latest message on a channel and prints it undecoded to stdout
- - _read_: retrieves the attribute value of a describable thing (see [Describable](https://github.intel.com/pages/iSPA/icecp-node/com/intel/icecp/core/Describable.html))
- - _write_: sets the attribute value of a describable thing (see [Describable](https://github.intel.com/pages/iSPA/icecp-node/com/intel/icecp/core/Describable.html))
+ - _read_: retrieves the attribute value of a describable thing (see [Describable](https://icecp.github.io/icecp/com/intel/icecp/core/Describable.html))
+ - _write_: sets the attribute value of a describable thing (see [Describable](https://icecp.github.io/icecp/com/intel/icecp/core/Describable.html))
  - _version_: prints the current version of the tool
  - _help_: prints available commands and options
 
