@@ -9,12 +9,12 @@
         <version>LATEST</version>
     </parent>
 
-    <name>icecp-tools</name>
+    <name>icecp-cli</name>
     <groupId>com.intel.icecp</groupId>
-    <artifactId>icecp-tools</artifactId>
+    <artifactId>icecp-cli</artifactId>
     <version>0.2.4</version>
     <packaging>jar</packaging>
-    <description>ICECP tools used for ICECP module communication and configuration.
+    <description>ICECP command-line interface used for ICECP module communication and configuration.
     </description>
 
     <organization>
@@ -73,7 +73,7 @@
                     <programs>
                         <program>
                             <id>icecp-cli</id>
-                            <mainClass>com.intel.icecp.tools.icecp.channel.Main</mainClass>
+                            <mainClass>Main</mainClass>
                         </program>
                     </programs>
                 </configuration>
@@ -114,7 +114,7 @@
                             </descriptorRefs>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.intel.icecp.tools.icecp.channel.Main</mainClass>
+                                    <mainClass>com.intel.icecp.cli.Main</mainClass>
                                     <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                                     <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                                 </manifest>
