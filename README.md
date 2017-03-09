@@ -1,6 +1,6 @@
-# icecp-tools
+# icecp-cli
 
-A collection of tools for operating on ICECP channels directly
+A collection of tools for operating on ICECP using the command line
 
 ### Install
 
