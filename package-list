@@ -1,0 +1,4 @@
+com.intel.icecp.cli
+com.intel.icecp.cli.command
+com.intel.icecp.cli.exceptions
+com.intel.icecp.cli.util
