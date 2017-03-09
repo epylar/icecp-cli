@@ -36,7 +36,7 @@ Examples:
  - To read a remote attribute: `./icecp-cli read -uri ndn:/intel/node/1234 -attributeName os`
  - To write a remote attribute: `echo "..." | ./icecp-cli write -uri ndn:/intel/node/1234 -attributeName os`
  - For verbose logging, use `./icecp-cli -debug ...`
- - For specifying configuration parameters, use `./icecp-cli ... -D uri=ndn-lab2.jf.intel.com -D foo=bar` (this example resets the chosen NFD to the lab server)
+ - For specifying configuration parameters, use `./icecp-cli ... -D uri=[nfd hostname] -D foo=bar` (this example resets the chosen NFD to the lab server)
 
 ### Issues
 
